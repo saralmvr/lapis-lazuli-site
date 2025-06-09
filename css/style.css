@@ -1,0 +1,199 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 5vw 0 5vw;
+  background: #f3eeeb;
+  min-height: 380px;
+}
+
+.main-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center; /* Centraliza tudo na coluna esquerda */
+}
+
+.main-left h2 {
+  font-family: 'Frijole', cursive; /* voltou para Frijole */
+  font-size: 2rem;
+  color: #1e3a5c;
+  margin-bottom: 0;
+  text-align: center; /* Centraliza o título */
+}
+
+.main-left p {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.2rem;
+  color: #222;
+  margin: 0 0 12px 0;
+  text-align: center; /* Centraliza o texto */
+  width: 100%;        /* Garante que ocupe toda a largura da coluna */
+}
+
+.main-left .img-pequena {
+  width: 220px;
+  margin-top: 18px;
+}
+
+.btn-explorar {
+  background: #1e3a5c;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: 'Lexend', sans-serif;
+  margin-bottom: 40px; /* Adiciona espaço abaixo do botão */
+}
+
+.main-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-grande {
+  width: 380px;         /* aumente este valor conforme desejar */
+  border-radius: 90px 90px 0 0;
+  object-fit: cover;
+}
+
+.faixa-azul {
+  background: #7ba6d8;
+  color: #1e3a5c;
+  padding: 24px 0;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Jolly Lodger', cursive; /* alterado para Jolly Lodger */
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.imagens-centrais {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px; /* aumenta o espaço entre as imagens */
+  background: #f8f6f4;
+  padding: 32px 0 48px 0;
+}
+
+.imagens-centrais img {
+  width: 260px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 60px 60px 0 0;
+  background: #e3eaf4;
+  transition: transform 0.3s ease; /* Adiciona transição suave */
+}
+
+.imagens-centrais img:hover {
+  transform: scale(1.07); /* Aumenta 7% ao passar o mouse */
+  z-index: 1;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 24px 0;
+  font-size: 1rem;
+  font-family: 'Lexend', sans-serif;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f3eeeb;
+  padding: 16px 5vw;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: 'Lexend', sans-serif;
+  gap: 20px; /* diminui o espaço entre os itens principais */
+}
+
+.navbar-logo {
+  flex: 0 0 auto;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  color: #1e3a5c;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.navbar-links li a:hover,
+.navbar-links li a:focus {
+  background: #e3eaf4;
+  color: #3b5998;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  background: #f3eeeb; /* mesma cor do fundo do site */
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 2px 10px;
+  margin-right: 18px;
+}
+
+.navbar-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 6px 8px;
+  font-size: 1rem;
+  width: 120px;
+}
+
+.navbar-search button {
+  background: none;
+  border: none;
+  color: #1e3a5c;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0 4px;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar-icons a {
+  color: #1e3a5c;
+  font-size: 1.2rem;
+  transition: color 0.2s;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.navbar-icons a:hover {
+  background: #e3eaf4;
+  color: #3b5998;
+}
