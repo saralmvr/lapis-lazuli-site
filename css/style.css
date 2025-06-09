@@ -18,15 +18,15 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 18px;
-  align-items: center; /* Centraliza tudo na coluna esquerda */
+  align-items: center; 
 }
 
 .main-left h2 {
-  font-family: 'Frijole', cursive; /* voltou para Frijole */
+  font-family: 'Frijole', cursive; 
   font-size: 2rem;
   color: #1e3a5c;
   margin-bottom: 0;
-  text-align: center; /* Centraliza o título */
+  text-align: center; 
 }
 
 .main-left p {
@@ -34,8 +34,8 @@ html, body {
   font-size: 1.2rem;
   color: #222;
   margin: 0 0 12px 0;
-  text-align: center; /* Centraliza o texto */
-  width: 100%;        /* Garante que ocupe toda a largura da coluna */
+  text-align: center; 
+  width: 100%;        
 }
 
 .main-left .img-pequena {
@@ -53,7 +53,7 @@ html, body {
   cursor: pointer;
   margin-top: 10px;
   font-family: 'Lexend', sans-serif;
-  margin-bottom: 40px; /* Adiciona espaço abaixo do botão */
+  margin-bottom: 40px; 
 }
 
 .main-right {
@@ -63,7 +63,7 @@ html, body {
 }
 
 .img-grande {
-  width: 380px;         /* aumente este valor conforme desejar */
+  width: 380px;         
   border-radius: 90px 90px 0 0;
   object-fit: cover;
 }
@@ -74,7 +74,7 @@ html, body {
   padding: 24px 0;
   text-align: center;
   font-size: 2rem;
-  font-family: 'Jolly Lodger', cursive; /* alterado para Jolly Lodger */
+  font-family: 'Jolly Lodger', cursive; 
   letter-spacing: 1px;
   margin: 0;
 }
@@ -83,7 +83,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 48px; /* aumenta o espaço entre as imagens */
+  gap: 48px; 
   background: #f8f6f4;
   padding: 32px 0 48px 0;
 }
@@ -94,11 +94,11 @@ html, body {
   object-fit: cover;
   border-radius: 60px 60px 0 0;
   background: #e3eaf4;
-  transition: transform 0.3s ease; /* Adiciona transição suave */
+  transition: transform 0.3s ease; 
 }
 
 .imagens-centrais img:hover {
-  transform: scale(1.07); /* Aumenta 7% ao passar o mouse */
+  transform: scale(1.07); 
   z-index: 1;
 }
 
@@ -111,7 +111,6 @@ footer {
   font-family: 'Lexend', sans-serif;
 }
 
-/* --- NAVBAR --- */
 .navbar {
   display: flex;
   align-items: center;
@@ -120,7 +119,7 @@ footer {
   padding: 16px 5vw;
   border-bottom: 1px solid #e0e0e0;
   font-family: 'Lexend', sans-serif;
-  gap: 20px; /* diminui o espaço entre os itens principais */
+  gap: 20px; 
 }
 
 .navbar-logo {
@@ -154,7 +153,7 @@ footer {
 .navbar-search {
   display: flex;
   align-items: center;
-  background: #f3eeeb; /* mesma cor do fundo do site */
+  background: #f3eeeb; 
   border-radius: 20px;
   border: 1px solid #ccc;
   padding: 2px 10px;
