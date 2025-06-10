@@ -1,2 +1,82 @@
-# lapis-lazuli-site
-Site e-commerce
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site oficial do Lapis Lazuli. Descubra mais sobre nosso projeto.">
+  <meta name="keywords" content="lapis lazuli, moda, acessórios, projeto">
+  <link rel="icon" href="/assets/logo llssz.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fruktur:ital@0;1&family=Syne:wght@400..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f1d86276d6.js" crossorigin="anonymous"></script>  
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Lapis Lazuli - início</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <div class="navbar-logo">
+        <a href="index.html">
+          <img src="/assets/logo2llszss.png" alt="Lapis Lazuli" height="40">
+        </a>
+      </div>
+      <ul class="navbar-links">
+        <li><a href="index.html">Início</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Categorias <i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-content">
+            <a href="#">Colares</a>
+            <a href="#">Pulseiras</a>
+            <a href="#">Brincos</a>
+            <a href="#">Anéis</a>
+          </div>
+        </li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </div>
+    <div class="navbar-right">
+      <div class="navbar-search">
+        <input type="text" class="form-control" placeholder="Pesquisar...">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="navbar-icons">
+        <a href="perfil.html" title="Perfil"><i class="fas fa-user"></i></a>
+        <a href="favoritos.html" title="Favoritos"><i class="fas fa-heart"></i></a>
+        <a href="carrinho.html" title="Carrinho"><i class="fas fa-shopping-cart"></i></a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="main-content">
+      <div class="main-left">
+        <h2>AUTENTICIDADE</h2>
+        <p>
+          Nascida da <b>periferia</b> para a <b>periferia</b>. <br>
+          Estilo é expressão, e nossos acessórios são feitos para quem <br>
+          quer se destacar.
+        </p>
+        <img src="/assets/armarios.png" alt="armários" class="img-pequena">
+        <button class="btn-explorar">Explorar mais</button>
+      </div>
+      <div class="main-right">
+        <img src="/assets/imagem1.jpeg" alt="mulher com a mão no cabelo" class="img-grande">
+      </div>
+    </div>
+  </main>
+  <div class="faixa-azul">
+    <p>Seja você mesmo e use seu nome!</p>
+  </div>
+
+  <div class="imagens-centrais">
+    <img src="/assets/img2.jpeg" alt="Imagem 1">
+    <img src="/assets/img3.jpeg" alt="Imagem 2">
+    <img src="/assets/img4.jpeg" alt="Imagem 3">
+  </div>
+  <script src="/js/main.js"></script>
+  <footer>
+    <p>&copy; 2025 Lápis Lazuli. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
