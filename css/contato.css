@@ -238,3 +238,11 @@ footer {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.form-msg {
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  color: #b32d2d;
+  margin-bottom: 8px;
+  text-align: center;
+}
